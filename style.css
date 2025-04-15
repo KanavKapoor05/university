@@ -161,3 +161,35 @@ button.btn-danger {
   .btn-maroon:hover {
     background-color: #a52a2a;
   }
+
+/* my reports*/
+  body {
+    background-color: #f5f5dc; /* beige background */
+  }
+  .bg-maroon {
+    background-color: #800000;
+  }
+  .text-maroon {
+    color: #800000;
+  }
+  .btn-maroon {
+    background-color: #800000;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .btn-maroon:hover {
+    background-color: #a52a2a;
+  }
+  .report-table tr {
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  .report-table tr:hover {
+    background-color: #f5f5dc; /* beige on hover */
+    transform: translateY(-4px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .table{
+    background-color: maroon
+  }
