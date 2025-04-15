@@ -54,23 +54,19 @@ body {
     width : 75%;
     height: 50%;
   }
-  
-  /* Heading color */
   .appointment-heading {
-    color: beige !important; /* Sets the heading color to beige */
+    color: beige !important; 
   }
-    /* Styling for the Book Appointment button */
+   
 button.btn-danger {
-    background-color: beige !important;  /* Set the button background color to white */
-    color: maroon !important;            /* Text color will be maroon */
-    border: 2px solid maroon;           /* Border color to match the button text */
+    background-color: beige !important;  
+    color: maroon !important;            
+    border: 2px solid maroon;           
   }
-  
-  /* Hover effect for the button */
   button.btn-danger:hover {
-    background-color: white !important; /* Change background color to beige on hover */
-    color: maroon !important;           /* Keep the text color as maroon on hover */
-    border: 2px solid maroon;          /* Keep the border color as maroon on hover */
+    background-color: white !important; 
+    color: maroon !important;           
+    border: 2px solid maroon;         
   }
   .submit{
     cursor: pointer;
@@ -104,4 +100,34 @@ button.btn-danger {
       padding-left: 0;
       margin-left: 0;
     }
+  }
+  .bg-maroon {
+    background-color: #800000;
+  }
+  .text-maroon {
+    color: #800000;
+  }
+  .fade-in {
+    animation: fadeInUp 1.2s ease-in-out forwards;
+    opacity: 0;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .list-group-item {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  .list-group-item:hover {
+    background-color: #fff3cd;
+    transform: scale(1.02);
   }
