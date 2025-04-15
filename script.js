@@ -15,3 +15,36 @@ function confirmAppointment() {
   }
   
   
+  document.addEventListener("DOMContentLoaded", function () {
+    // Login form submission
+    const loginForm = document.getElementById("loginForm");
+    loginForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      const email = document.getElementById("loginEmail").value;
+      const password = document.getElementById("loginPassword").value;
+  
+      if (email && password) {
+        alert("Login successful! Welcome to Hopewell Healthcare.");
+        loginForm.reset();
+      } else {
+        alert("Please fill in all fields for login.");
+      }
+    });
+  
+    // Signup form submission
+    const signupForm = document.getElementById("signupForm");
+    signupForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      const name = document.getElementById("signupName").value;
+      const email = document.getElementById("signupEmail").value;
+      const password = document.getElementById("signupPassword").value;
+  
+      if (name && email && password) {
+        alert("Signup successful! Your account has been created.");
+        signupForm.reset();
+      } else {
+        alert("Please complete all fields for signup.");
+      }
+    });
+  });
+  
