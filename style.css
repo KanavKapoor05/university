@@ -1,0 +1,107 @@
+body {
+    background-color: #fdf6e3; /* beige/cream */
+    color: #4b2e2e; /* dark maroon */
+  }
+  
+  header {
+    background-color: #800000 !important; /* maroon */
+  }
+  
+  header h2, header .nav-link {
+    color: #fff8dc !important; /* light cream */
+  }
+  
+  header .nav-link.text-danger {
+    color: #d4af37 !important; /* gold */
+  }
+  
+  section.bg-light {
+    background-color: #fffaf0 !important; /* light beige */
+  }
+  
+  .btn-danger {
+    background-color: #800000;
+    border-color: #800000;
+    color: #fff8dc;
+  }
+  
+  .btn-danger:hover {
+    background-color: #a52a2a;
+    border-color: #a52a2a;
+  }
+  
+  .btn-warning {
+    background-color: #d4af37;
+    border-color: #d4af37;
+    color: #4b2e2e;
+  }
+  
+  .btn-warning:hover {
+    background-color: #bfa033;
+    border-color: #bfa033;
+  }
+  
+  select.form-select, input.form-control {
+    border-color: #d4af37;
+  }
+  
+  h2, h3 {
+    color: #800000;
+  }
+
+.appointment-section {
+    background-color: maroon !important; 
+    width : 75%;
+    height: 50%;
+  }
+  
+  /* Heading color */
+  .appointment-heading {
+    color: beige !important; /* Sets the heading color to beige */
+  }
+    /* Styling for the Book Appointment button */
+button.btn-danger {
+    background-color: beige !important;  /* Set the button background color to white */
+    color: maroon !important;            /* Text color will be maroon */
+    border: 2px solid maroon;           /* Border color to match the button text */
+  }
+  
+  /* Hover effect for the button */
+  button.btn-danger:hover {
+    background-color: white !important; /* Change background color to beige on hover */
+    color: maroon !important;           /* Keep the text color as maroon on hover */
+    border: 2px solid maroon;          /* Keep the border color as maroon on hover */
+  }
+  .submit{
+    cursor: pointer;
+    background-color: #800000;
+    padding: 10px 15px;
+    color: beige;
+    border-radius: 5px;
+  }
+  .submit:hover{
+    background-color: #a52a2a;
+  }
+  .contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+  .contact-left {
+    flex: 1 1 45%;
+  }
+  .contact-right {
+    flex: 1 1 45%;
+    padding-left: 3rem;
+    margin-left: auto;
+  }
+  .contact-right p {
+    margin-bottom: 1.5rem;
+  }
+  @media (max-width: 768px) {
+    .contact-right {
+      padding-left: 0;
+      margin-left: 0;
+    }
+  }
