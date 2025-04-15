@@ -131,3 +131,33 @@ button.btn-danger {
     background-color: #fff3cd;
     transform: scale(1.02);
   }
+
+  /* login page*/
+  body {
+    background-color: #fdf6e3;
+  }
+  .auth-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .auth-box {
+    background: white;
+    border: 1px solid #800000;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(128, 0, 0, 0.3);
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+  }
+  .auth-box h3 {
+    color: #800000;
+  }
+  .btn-maroon {
+    background-color: #800000;
+    color: #fff8dc;
+  }
+  .btn-maroon:hover {
+    background-color: #a52a2a;
+  }
