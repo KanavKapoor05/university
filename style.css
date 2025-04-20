@@ -1,22 +1,24 @@
 body {
-    background-color: #fdf6e3; /* beige/cream */
-    color: #4b2e2e; /* dark maroon */
+    background-color: #fdf6e3; 
+    color: #4b2e2e; 
   }
-  
+ .nav-link.active{
+    color: #d4af37 !important; 
+ }
   header {
-    background-color: #800000 !important; /* maroon */
+    background-color: #800000 !important; 
   }
   
   header h2, header .nav-link {
-    color: #fff8dc !important; /* light cream */
+    color: #fff8dc !important; 
   }
   
   header .nav-link.text-danger {
-    color: #d4af37 !important; /* gold */
+    color: #d4af37 !important; 
   }
   
   section.bg-light {
-    background-color: #fffaf0 !important; /* light beige */
+    background-color: #fffaf0 !important; 
   }
   
   .btn-danger {
